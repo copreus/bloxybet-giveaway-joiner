@@ -13,8 +13,6 @@ let webhook = "webhookhere"
 
 
 
-console.log("PLEASE READ instructions.txt on how to run 24/7");
-
 async function send_webhook(id, name, value, check, errormsg){
   let message = {
       'content': '@everyone',
