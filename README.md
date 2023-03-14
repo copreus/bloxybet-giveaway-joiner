@@ -7,13 +7,13 @@ Joins giveaways on bloxybet automatically! Install NodeJS here: https://nodejs.o
 ## Replit 24/7 Free Hosting
 You can either fork this repl. (NOT RECOMMENDED as users can see who forked the repl and steal your bloxybet auth token)
 ```
-https://replit.com/@gusto20000/bloxybet-giveaway-joiner#index.js
+https://replit.com/@gusto20000/bloxybet-giveaway-joiner
 ```
 Or download the repl and upload it to a new repl from here. This is RECOMMENDED
 ``` 
 https://replit.com/@gusto20000/bloxybet-giveaway-joiner.zip 
 ```
-Read the instructions.txt file for more details
+Read the instructions.txt file for instructions 
 
 ## Installation
 
