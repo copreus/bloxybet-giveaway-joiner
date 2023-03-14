@@ -37,5 +37,5 @@ async function join_giveaway(id, name, value){
   }
 }
 
-async function main(){ console.log("Made with love by gusto_#1252"); while (true){ giveaway_check(); await new Promise((resolve) => setTimeout(resolve, 1500));}}
+async function main(){ console.log("Made with love by gusto_#1252\nJoiner started, waiting for giveaways."); while (true){ giveaway_check(); await new Promise((resolve) => setTimeout(resolve, 1500));}}
 main()
