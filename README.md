@@ -13,7 +13,7 @@ Or download the repl and upload it to a new repl from here. This is RECOMMENDED
 ``` 
 https://replit.com/@gusto20000/bloxybet-giveaway-joiner.zip 
 ```
-Read the instructions.txt file for instructions 
+Read the instructions.txt file in the replit for instructions 
 
 ## Installation
 
