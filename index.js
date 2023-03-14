@@ -2,8 +2,51 @@ const WebSocket = require('ws');
 const fetch = require('node-fetch')
 let giveaways = undefined;
 let joined_giveaways = [];
-//You can use multiple roblox accounts by seperating each auth key with a comma.
-const auth_keys = ['authkeyhere']
+
+const auth_keys = ['authtokenhere']
+let webhook = "discordwebookhere"
+
+async function send_webhook(id, name, value, check, errormsg){
+  let message = {
+      'content': '@everyone',
+      'embeds': [
+        {
+          'title': 'Joined giveaway \uD83C\uDF89',
+          'description': `Item: ${name}\nValue: ${value}\nGiveaway ID: ${id}`,
+          'color': 5814783,
+          'footer': {
+            'text': 'Made by gusto_#1252'
+          }
+        }
+      ],
+      'attachments': []
+    }
+  if (check === 1){
+    message = {
+      'content': '@everyone',
+      'embeds': [
+        {
+          'title': 'Failed to join giveaway :warning:',
+          'description': `Error message: ${JSON.stringify(errormsg)}`,
+          'color': 5814783,
+          'footer': {
+            'text': 'Made by gusto_#1252'
+          }
+        }
+      ],
+      'attachments': []
+    }
+  }
+  fetch(webhook, {
+    method: 'POST',
+    headers: {
+      'accept': 'application/json',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify(message)
+});
+}
+
 async function giveaway_check() {
   try{
     const ws = new WebSocket('wss://bloxyapi.com/api/giveaway_ws');
@@ -30,7 +73,13 @@ async function join_giveaway(id, name, value){
     method: 'POST',
     headers: { 'authorization': auth_keys[y], 'content-type': 'application/json', },
     body: JSON.stringify({ 'giveaway_id': id })
-    }); response = await response.json(); console.log(response);
+    }); response = await response.json();
+    if (response['message'] === 'success'){
+      send_webhook(id, name, value, 0, response)
+    } else{
+      send_webhook(id, name, value, 1, response)
+    }
+    
   };
   }catch{
     console.log("Error on join_giveaway function")
