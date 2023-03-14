@@ -2,7 +2,7 @@
 # Bloxybet Giveaway Joiner
 
 
-Joins giveaways on bloxybet automatically! Install NodeJS here: https://nodejs.org/en/download/
+Joins giveaways on bloxybet automatically and automatically bets every 24 hours! Install NodeJS here: https://nodejs.org/en/download/
 
 ## Replit 24/7 Free Hosting
 You can either fork this repl. (NOT RECOMMENDED as users can see who forked the repl and steal your bloxybet auth token)
