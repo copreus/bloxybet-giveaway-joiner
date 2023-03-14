@@ -9,7 +9,7 @@ You can either fork this repl. (NOT RECOMMENDED as users can see who forked the 
 ```
 https://replit.com/@gusto20000/bloxybet-giveaway-joiner
 ```
-Or download the repl and upload it to a new repl from here. This is RECOMMENDED
+Or download the repl using the link below and upload it to a new repl from here. This is RECOMMENDED
 ``` 
 https://replit.com/@gusto20000/bloxybet-giveaway-joiner.zip 
 ```
