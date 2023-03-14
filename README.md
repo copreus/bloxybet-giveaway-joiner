@@ -30,6 +30,10 @@ Place your auth key between the parentheses like in the example below. For help 
 ```js
   const auth_keys = ['authkeygoeshere']
 ```
+Then replace discordwebookhere with your webhook. This is for notifications.
+```js
+  let webhook = "discordwebookhere"
+```
 After you saved the file, run start.bat to start the giveaway joiner. You can use multiple bloxybet accounts by seperating each auth key with a comma. Refer to example below
 ```js
   const auth_keys = ['authkey1', 'authkey2', 'authkey3']
