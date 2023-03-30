@@ -3,7 +3,7 @@
 
 
 Joins giveaways on bloxybet automatically and automatically bets every 24 hours! Install NodeJS here: https://nodejs.org/en/download/
-
+When using this GW joiner, your affiliate code will be automatically set to "gusto" to support me
 ## Installation
 
 Install NodeJS to your computer, then download the github repository. Extract the files, then open install.bat. You only need to run this once.
