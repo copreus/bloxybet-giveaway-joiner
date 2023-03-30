@@ -4,17 +4,6 @@
 
 Joins giveaways on bloxybet automatically and automatically bets every 24 hours! Install NodeJS here: https://nodejs.org/en/download/
 
-## Replit 24/7 Free Hosting
-You can either fork this repl. (NOT RECOMMENDED as users can see who forked the repl and steal your bloxybet auth token)
-```
-https://replit.com/@gusto20000/bloxybet-giveaway-joiner
-```
-Or download the repl using the link below and upload it to a new repl from here. This is RECOMMENDED
-``` 
-https://replit.com/@gusto20000/bloxybet-giveaway-joiner.zip 
-```
-Read the instructions.txt file in the replit for instructions 
-
 ## Installation
 
 Install NodeJS to your computer, then download the github repository. Extract the files, then open install.bat. You only need to run this once.
